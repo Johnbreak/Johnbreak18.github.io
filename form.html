@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Student Registration</h1>
+
+    <form action="register .php" method="POST">
+        <label for="name">Name</label>
+        <input type="text" name="stu name" id="name" placeholder="Eg Mg Mg" required>
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email name="stu email" id="email" value="heinmainhtet8138@gmail.com" readonly>
+        <br><br>
+        <label for="passward">Passward</label>
+        <input type="passward" name="stu passward" id ="passward">
+
+        <br><br>
+        <button type="submit">submit</button>
+        <label for="phone">Phone Number</label>
+        <input type="number" name="stu phone" id="phone">
+        <br><br>
+        <label for="passport">Passport</label>
+        <input type="file" accept="image/*" name="stu passport" id="passport">
+        <br><br>
+        <label for="year"Years></label>
+        <select name="stu year" id="year">
+            <option value="0">Choose Year</option>
+            <option value="1">First Year</option>
+            <option value="2">Second Year</option>
+            <option value="2">Third Year</option>
+        </select>
+        <br><br>
+        <label for="Gender"></label><br>
+        <input type="radio" name="gender" id="male><label for="male">Male</label>
+        <input type="radio" name="gender" id="female"><label for="female">Female</label>
+        <br><br>
+        <label for="">Hobby</label><br>
+        <input type="chickbox" name="reading" id="reading"><label for="reading">Reading</label>
+        <input type="checkbox" name="travellong" id="travelling"><label for="reavelling">Travelling</label>
+        <input type="checkbox" name="youtuber" id="youtuber"> <label for="youtuber">Youtuber</label>
+        <br><br>
+        <label for="address">Address</label>
+        <textarea name="stu address" id="address" cols="30" rows="10"></textarea>
+        <br><br>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
